@@ -5,7 +5,7 @@ Data Engineering Nanodegree capstone project
 - THe first phase of this project cleans up the data and creates a model to be loaded and analyzed later
 
 # Data Sources
-- Human Activity data [Source] (https://www.kaggle.com/sasanj/human-activity-smart-devices)
+- Human Activity data [source](https://www.kaggle.com/sasanj/human-activity-smart-devices)
 
 # Data Lake to Star Schema design
 - Data has been prepared for simple COPY operation in redshift/BigQuery/any other data warehousing solution using pyspark
