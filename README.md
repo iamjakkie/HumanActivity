@@ -33,7 +33,7 @@ airflow scheduler
 airflow webserver
 ```
 # DAG
-![alt text](dag.png)
+![alt text](Dag.png)
 
 
 
