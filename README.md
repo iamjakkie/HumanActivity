@@ -35,5 +35,10 @@ airflow webserver
 # DAG
 ![alt text](Dag.png)
 
+# Errors encountered
+- troubles loading prepared parquet files into redshift - even changing the data format to .csv did not work. There is a lot of similar issues in the web, I assume it's just a redshift issue.
 
+# Next steps
+- Load the data into data warehouse
+- Prepare data analysis based on provided data
 
