@@ -42,3 +42,7 @@ airflow webserver
 - Load the data into data warehouse
 - Prepare data analysis based on provided data
 
+# Possible scenarios
+- The data was increased by 100x: There is a possibility to scale up the EMR cluster within the code
+- The pipelines would be run on a daily basis by 7 am every day: airflow allows creating schedule in code
+- The database needed to be accessed by 100+ people: redshift will allow multiple users at the same time
